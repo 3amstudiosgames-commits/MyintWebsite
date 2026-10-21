@@ -13,12 +13,26 @@
             background-position: center;
             background-size: cover;
             background-attachment: fixed;
-            background-color: rgb(0, 0, 0);
-            
-            
+        }
+        a{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            font-size: 150%;
+            padding-top: 10%;
+            color: rgb(168, 26, 26);
+            font-family: pixelfy;
+ 
+        }
+        h2{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: rgb(168, 26, 26);
+            font-family: jaquard;
         }
         .box{
-            background-color: aquamarine;
+            background-color: rgb(0, 0, 0);
         }
         .grid-container{
             display: grid;
@@ -37,6 +51,12 @@
             "box-8 box-8 box-9 box-9 box-9 box-10 box-10"
             "box-8 box-8 box-9 box-9 box-9 box-10 box-10";
             
+        }
+        @font-face {
+            font-family: pixelfy;
+            src: url('PixelifySans-Medium');
+            font-family: jaquard;
+            src: url('Jacquard12-Regular');
         }
         @media(max-width: 56em){
             .grid-container{
@@ -60,7 +80,21 @@
 <body>
     <div class="grid-container">
         <div class="box" style="grid-area: box-1"></div>
-        <div class="box" style="grid-area: box-2"></div>
+        <div class="box" style="grid-area: box-2">
+            <h2>Visit:</h2>
+            <hr>
+            <a>Movies</a>
+            <br>
+            <a>Series</a>
+            <br>
+            <a>Games</a>
+            <br>
+            <a>Hobbies</a>
+            <br>
+            <a>Projects</a>
+            <br>
+            <a>Blog</a>
+        </div>
         <div class="box" style="grid-area: box-3"></div>
         <div class="box" style="grid-area: box-4"></div>
         <div class="box" style="grid-area: box-5"></div>
