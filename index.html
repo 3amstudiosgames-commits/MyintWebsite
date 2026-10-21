@@ -24,6 +24,13 @@
             font-family: pixelfy;
  
         }
+        h1{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: rgb(168, 26, 26);
+            font-family: jaquard;
+        }
         h2{
             text-align: center;
             display: flex;
@@ -56,7 +63,7 @@
             font-family: pixelfy;
             src: url("PixelifySans-Medium.ttf");
             font-family: jaquard;
-            src: url("Jacquard12-Regular.ttf");
+            src: url("PixelifySans-SemiBold.ttf");
         }
         @media(max-width: 56em){
             .grid-container{
@@ -79,7 +86,10 @@
 
 <body>
     <div class="grid-container">
-        <div class="box" style="grid-area: box-1"></div>
+        <div class="box" style="grid-area: box-1">
+            <h1>Welcome To The World</h1>
+        </div>
+
         <div class="box" style="grid-area: box-2">
             <h2>Visit:</h2>
             <hr>
@@ -95,7 +105,10 @@
             <br>
             <a>Blog</a>
         </div>
-        <div class="box" style="grid-area: box-3"></div>
+        <div class="box" style="grid-area: box-3">
+            <h2>About:</h2>
+            <hr>
+        </div>
         <div class="box" style="grid-area: box-4"></div>
         <div class="box" style="grid-area: box-5"></div>
         <div class="box" style="grid-area: box-6"></div>
