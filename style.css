@@ -21,6 +21,7 @@ a{
 
 }
 h1{
+    margin-top: 0px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -40,6 +41,19 @@ h3{
     justify-content: center;
     color: rgb(168, 26, 26);
     font-family: jaquard;
+}
+button{
+    display: block;        
+    margin-left: auto;       
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(168, 26, 26);
+    font-family: jaquard;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 0px;
+
 }
 .box{
     background-color: rgb(0, 0, 0);
@@ -64,8 +78,8 @@ h3{
 }
 .grid-container-movies{
     display: grid;
-    grid-template-columns: 100px 100px 200px 200px 200px 100px 100px;
-    grid-template-rows: 100px;
+    grid-template-columns: 100px 100px 200px 200px 200px 100px 100px ;
+    grid-template-rows: 100px ;
     gap: 1em;
     grid-auto-rows:  1fr;
     grid-template-areas:
@@ -208,12 +222,16 @@ h3{
         "box-8 box-8 box-9 box-9 box-9 box-10 box-10";
         }
     .grid-container-movies{
+
         grid-template-columns: 100px 100px 200px 200px 200px 100px 100px;
         grid-template-rows: 100px;
         grid-template-areas:
+
         "box-1 box-1 box-1 box-1 box-1 box-1 box-1"
+
         "box-2 box-2 box-2 box-2 box-2 box-2 box-2"
-        "box-3 box-3 box-3 box-3 box-3 box-3 box-3";
+        "box-3 box-3 box-3 box-3 box-3 box-3 box-3"
+        "box-4 box-4 box-4 box-4 box-4 box-4 box-4";
     }
     .grid-container-series{
     grid-template-columns: 100px 100px 200px 200px 200px 100px 100px;
