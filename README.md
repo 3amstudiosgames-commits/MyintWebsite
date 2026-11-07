@@ -10,6 +10,7 @@ A website with a bento box style about me and things that i like. You can click 
 <img src="readme-images/hobbies-images.png" width="400">
 - image for index.html, hobbies.html, and movies.html 
 images are from the new updated website.
+
 ## How to use it:
 
 You can press this link to deploy the website or download it and open it in your browser.  
