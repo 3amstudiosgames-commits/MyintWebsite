@@ -1,7 +1,9 @@
 # MyintWebsite
 A website with a bento box style about me and things that i like. You can click links and got to the designated pages. there are a amount of 10 pages you can go to and the link on the right go to websites from my wish list.
 ## Description:
-<img src="readme-images/index-images.png" width="400">
+<img src="readme-images/index-image.png" width="400">
+<img src="readme-images/movies-images.png" width="400">
+<img src="readme-images/hobbies-images.png" width="400">
 ## Screenshots:
 - image for index.html, hobbies.html, and movies.html 
 
